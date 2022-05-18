@@ -1,0 +1,99 @@
+html {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-family: 'Heebo', sans-serif;
+  background-color: #ffffff;
+}
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  display: grid;
+  grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color: green;
+}
+
+.info-grid {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.363);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.432);
+  border-radius: 6px;
+  font-size: 0.7rem; 
+  display: grid;
+  grid-template-columns: 15px repeat(3, 1fr) 15px;
+  grid-template-rows: repeat(3, 1fr);
+  line-height: 1px;
+}
+.info-grid .name {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+  font-size: 1.2em;
+  letter-spacing: .1rem;
+  margin-top: 0px;
+}
+.info-grid .name h5{
+  font-weight: unset;
+  margin-top: 10px;
+}
+.info-grid .addr {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  margin-top: 5px;
+}
+.info-grid .addr p{
+  font-weight: unset;
+  margin-top: 10px;
+}
+
+.info-grid .phoneNo {
+  grid-column: 3 / span 2;
+  grid-row: 2;
+  text-align: end;
+  margin-top: 5px;
+}
+.info-grid .phoneNo p{
+  font-weight: unset;
+  margin-top: 15px;
+}
+.info-grid .emailId {
+  grid-column: 3 / span 2;
+  grid-row: 3;
+  text-align: end;
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+.info-grid .emailId p{
+  font-weight: unset;
+  margin-top: 10px;
+}
+
+/*.change{
+    margin:0px 30%;
+    width: 40%;
+    border: 2px solid blue;
+    font-size: 14px;
+    align-self :center;
+}
+
+.change a{
+  text-decoration: none;
+}
+
+.change #prevoius{
+  float: left;
+}
+
+.change #next{
+  float: right;
+}
+*/

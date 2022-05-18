@@ -1,0 +1,63 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #F2F3F4    ;
+}
+
+.post-container{
+  position: relative;
+  /*border: 1px solid black;*/
+  width: 80%;
+  height: auto;
+  margin: 20px 10%;
+  background-color: #E0E0E0;
+}
+
+.post-image{
+  width: 50%;
+  margin: 20px 25%;
+}
+
+.post-title{
+  margin: 10px 0px;
+  font-size: 36px;
+}
+
+.post-content{
+  margin: 0px 10%;
+  font-size: 18px;
+}
+
+.donatebtn{
+  height: 50px;
+  background: #188224;
+  border: 0;
+  margin: 20px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff; 
+  font-size: 18px;
+}
+
+.donatebtn:hover{
+  background: #1E4B28;
+}
+
+@media(max-width: 1024px){
+   .post-image{
+    width: 300px;
+    margin: 20px 10%;
+  }
+}
+
+@media(max-width: 556px){
+  .post-image{
+  width: 80%;
+  margin: 20px 10%;
+}
+
+  .post-content{
+  font-size: 14px;
+}
+}
